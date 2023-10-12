@@ -235,3 +235,24 @@ iex(6)> send(echo, {self(), :hello})
 (<0.142.0>) << {<0.139.0>,hello}
 (<0.142.0>) <0.139.0> ! hello
 ```
+
+====
+
+`final thoughts:`
+
+- `match_spec()` powerful tool to narrow down matches e.g. by function param
+- meh: text output
+- meh: explicite `:dbg.stop()`
+- meh: hot functions - tracer overflow (can be mitigated `:dbg.tracer/2`)
+
+====
+
+`resources:`
+
+- [Kernel.dbg](https://hexdocs.pm/elixir/main/Kernel.html#dbg/2)
+- [:dbg](https://www.erlang.org/doc/man/dbg)
+- [recon_trace](https://www.erlang.org/doc/man/dbg) by Fred Hebert
+
+====
+
+`thanks!`
