@@ -64,7 +64,7 @@ diff --git a/mix.exs b/mix.exs
 ```elixir [1-2|3-4|10-11|6-8]
 iex> :dbg.start()
 {:ok, #PID<0.143.0>}
-iex> :dbg.tracer() # TODO /2
+iex> :dbg.tracer()
 {:ok, #PID<0.143.0>}
 
 # 🔥
